@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'tecno';
+    src: url('fonts/Yekan.eot') format('eot'),
+    url('fonts/Yekan.ttf') format('truetype'),
+    url('fonts/Yekan.woff') format('woff');
+}
+@font-face{
+    font-family: 'tecnon';
+    src: url('fonts/yekannumbers-regular.eot') format('eot'),
+    url('fonts/yekannumbers-regular.ttf') format('truetype'),
+    url('fonts/yekannumbers-regular.woff') format('woff');
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    font-size: 100%;
+    direction: rtl;
+    font-family: tecno, tecnon;
+    background: #f1fffa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
